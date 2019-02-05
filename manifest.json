@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "visited-color-picker",
-	"version": "1.0",
+	"version": "1.1",
 
 	"description": "Change the color of visited link with the color of your choice",
 

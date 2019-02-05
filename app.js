@@ -3,12 +3,10 @@ function onError(error) {
 }
 
 function onGot(item) {
-	console.log("je suis la")
 	  var color = "green";
 	  if (item.color) {
 		      color = item.color;
 		    }
-	console.log("couleur : "+color);
 	//var styleEl = document.createElement('style');
 //	document.head.appendChild(styleEl);
 	var sheet = window.document.styleSheets[0];
@@ -18,9 +16,6 @@ function onGot(item) {
 	} catch (e) {
 		console.error(e);
 	}
-	console.log("regles : "+rule);
-
-	console.log("ici");
 }
 
 var getting = browser.storage.sync.get("color");
